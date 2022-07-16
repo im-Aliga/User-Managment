@@ -6,8 +6,4 @@
     <RootNamespace>User_Managment</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Database\Reposity\" />
-  </ItemGroup>
-
 </Project>

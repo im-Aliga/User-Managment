@@ -33,7 +33,7 @@ namespace User_Managment.ApplicationLogic.Validations
         }
         public static bool IsValidEmail(string email)
         {
-            string patternEmail = @"([a-zA-Z0-9]+){8,15}([@])(code.edu.az)$";
+            string patternEmail = @"([a-zA-Z0-9]+){10,30}([@])(code.edu.az)$";
             Regex regexEmail = new Regex(patternEmail);
             if (regexEmail.IsMatch(email))
             {
