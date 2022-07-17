@@ -56,6 +56,10 @@ namespace User_Managment.ApplicationLogic.Validations
             Console.WriteLine("Password - Must contain at least one uppercase letter, one lowercase letter, and a number and cannot be less than 8 in length.");
             return false;
         }
+        public static bool IsValidEmailUnique(string email)
+        {
+           
+        }
 
     }
     

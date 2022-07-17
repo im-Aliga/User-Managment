@@ -17,7 +17,7 @@ namespace User_Managment.Database.Models
         public DateTime RegistrationTime { get; set; }
 
 
-        public User(string name, string latsname, string password, DateTime time, string email)
+        public User(string name, string latsname, string email, string password, DateTime time )
         {
             Id = _idcounter;
             _idcounter++;
