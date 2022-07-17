@@ -14,19 +14,34 @@ namespace User_Managment.Database.Models
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public DateTime RegistrationTime { get; set; }
+        public  DateTime _registrationTime { get; set; }
+        
 
 
-        public User(string name, string latsname, string email, string password, DateTime time )
+        public User(string name, string lastName, string email, string password)
         {
             Id = _idcounter;
             _idcounter++;
             Name = name;
-            LastName = latsname;
+            LastName = lastName;
             Email = email;
             Password = password;
-            RegistrationTime = time;
+            _registrationTime=DateTime.Now;
+            
+            
+
         }
+        public string GetUserInfoForUser()
+        {
+            return Name + " " + LastName + " " + Email+" "+_registrationTime;
+        }
+        public string GetUserInfoForAdmin()
+        {
+
+            return Id + " " + Name + " " + LastName + " " + Email + " " + _registrationTime;
+        }
+        
+     
 
     }
 }

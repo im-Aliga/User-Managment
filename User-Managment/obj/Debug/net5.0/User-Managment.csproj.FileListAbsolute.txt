@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\bin\Debug\net5.0\User-Managment.exe
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\bin\Debug\net5.0\User-Managment.deps.json
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\bin\Debug\net5.0\User-Managment.runtimeconfig.json
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\bin\Debug\net5.0\User-Managment.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\bin\Debug\net5.0\User-Managment.dll
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\bin\Debug\net5.0\User-Managment.pdb
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.dll
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\refint\User-Managment.dll
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.pdb
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\User-Managment.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\User-Managment\User-Managment\obj\Debug\net5.0\ref\User-Managment.dll
