@@ -35,7 +35,7 @@ namespace User_Managment.ApplicationLogic
             }
 
         }
-        private static string GetName()
+        public static string GetName()
         {
             Console.Write("Please enter user's name : ");
             string name = Console.ReadLine();
@@ -48,7 +48,7 @@ namespace User_Managment.ApplicationLogic
 
             return name;
         }
-        private static string GetLastName()
+        public static string GetLastName()
         {
             Console.Write("Please enter user's last name :");
             string lastname = Console.ReadLine();
@@ -60,7 +60,7 @@ namespace User_Managment.ApplicationLogic
             }
             return lastname;
         }
-        private static string GetEmail()
+        public static string GetEmail()
         {
             Console.Write("Please enter user's email : ");
             string email = Console.ReadLine();
@@ -71,7 +71,7 @@ namespace User_Managment.ApplicationLogic
             }
             return email;
         }
-        private static string GetPassword()
+        public static string GetPassword()
         {
             Console.Write("Please enter user's password : ");
             string password = Console.ReadLine();
@@ -106,27 +106,17 @@ namespace User_Managment.ApplicationLogic
             if (UserReposity.IsUserExistByEmailAndPassword(email, password))
             {
                 User user = UserReposity.GetUserByEmail(email);
-                Console.WriteLine($"User successfully authenticated :  { user.GetUserInfoForUser()}");
-                Console.WriteLine("/show users");
-                Console.WriteLine("");
-                Console.WriteLine("please enter command: ");
-                string command = Console.ReadLine();
-                if (command == "/show users")
+                if(user is Admin)
                 {
-                    if (email == "admin@gmail.com")
-                    {
-                        foreach (User user1 in UserReposity.Users)
-                        {
-                            Console.WriteLine(user1.GetUserInfoForAdmin());
-                        }
-                    }
-                    else { Console.WriteLine("Only admin can view this command"); }
+                    Dashboard.AdminPanel();
+                }
+                else if (user is User)
+                {
+                    Dashboard.UserPanel(email);
                 }
 
-            }
-            else
-            {
-                Console.WriteLine("Please check");
+
+
             }
         }
 

@@ -14,7 +14,7 @@ namespace User_Managment.ApplicationLogic.Validations
         public static bool IsValidName(string name)
         {
             string patternName = @"(?=^.{3,30}$)([A-Z]+[a-z]+)";
-            Regex regexName = new Regex(patternName);
+            Regex regexName = new Regex(patternName)  ;
             if (regexName.IsMatch(name))
             {
                 return true;
@@ -49,7 +49,8 @@ namespace User_Managment.ApplicationLogic.Validations
         }
         public static bool IsValidPassword(string password)
         {
-            string patternPassword = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$";
+            string patternPassword = @"^(?=.*[A - Z])(?=.*[a - z])(?=.*\d)(?=.*?[!@#$%^&*()_+<>?])[A-Za-z\d!@#$%^&*()_+<>?]{6,50}$";
+
             Regex regexPassword=new Regex(patternPassword);
             if (regexPassword.IsMatch(password))
             {

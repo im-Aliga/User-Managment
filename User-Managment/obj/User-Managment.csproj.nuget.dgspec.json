@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\User-Managment\\User-Managment\\User-Managment.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\kurs\\User-Managment\\User-Managment\\User-Managment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\User-Managment\\User-Managment\\User-Managment.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\kurs\\User-Managment\\User-Managment\\User-Managment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\User-Managment\\User-Managment\\User-Managment.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\kurs\\User-Managment\\User-Managment\\User-Managment.csproj",
         "projectName": "User-Managment",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\User-Managment\\User-Managment\\User-Managment.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\kurs\\User-Managment\\User-Managment\\User-Managment.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\User-Managment\\User-Managment\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\kurs\\User-Managment\\User-Managment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
